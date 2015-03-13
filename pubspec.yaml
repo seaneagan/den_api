@@ -1,0 +1,18 @@
+name: den_api
+version: 0.1.0
+author: Sean Eagan <seaneagan1@gmail.com
+description: A programmatic API for den (https://github.com/seaneagan/den).
+homepage: https://github.com/seaneagan/den_api
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  contrast: '>=0.1.1 <0.2.0'
+  github: '>=2.1.6 <3.0.0'
+  path: '>=1.3.0 <2.0.0'
+  pub_package_data: any
+  pub_semver: '>=1.1.0 <2.0.0'
+  source_span: '>=1.0.3 <2.0.0'
+  which: '>=0.1.3 <0.2.0'
+  yaml: '>=2.0.1+1 <3.0.0'
+dev_dependencies:
+  unittest: '>=0.11.0 <12.0.0'
