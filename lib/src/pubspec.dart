@@ -125,9 +125,9 @@ class Pubspec {
         if(constraint != null) _versionConstraints[name] = constraint;
       });
     }
-    addGroup(dependencies);
-    addGroup(devDependencies);
-    addGroup(dependencyOverrides);
+    if(dependencies != null) addGroup(dependencies);
+    if(devDependencies != null) addGroup(devDependencies);
+    if(dependencyOverrides != null) addGroup(dependencyOverrides);
     return _versionConstraints;
   }
 
